@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+layout:decorator="~{template1}">
+<head>
+<meta charset="UTF-8" />
+
+
+<title>Ma Banque </title>
+</head>
+	<body>
+		<div layout:fragment="content">
+		<div class="row">
+			<div class="col-12 col-md-6">
+			
+				<div class="card mt-1 ml-1">
+  
+    			<h4 class="card-header bg-primary">Problème d'autorisation</h4>
+    			<div class="card-body">
+    			
+    				<div class="text-danger">
+    					<p>Vous n avez pas le droit d'accèder à cette ressources </p>
+    				</div>
+    				
+    			</div>
+    
+  
+				</div>
+			</div>
+		</div>
+				
+			
+			
+	</body>
+</html>
